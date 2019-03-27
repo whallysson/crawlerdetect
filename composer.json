@@ -1,0 +1,29 @@
+{
+    "name": "codeblog/crawlerdetect",
+    "description": "A CodeBlog CrawlerDetect class is easy and quick to use. Detecting bots/crawlers/spiders via the user agent!",
+    "keywords": [
+        "CodeBlog",
+        "crawler",
+        "crawler detect",
+        "crawler detector",
+        "crawlerdetect", 
+        "php crawler detect"
+    ],
+    "homepage": "http://www.codeblog.com.br",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Whallysson Avelino",
+            "email": "whallyssonallain@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeBlog\\CrawlerDetect\\": "src"
+        }
+    }
+}

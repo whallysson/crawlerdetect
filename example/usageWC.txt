@@ -1,0 +1,44 @@
+
+Para usar no Work Control (WC) sigua os passos:
+
+1 - Faça o download dos arquivos "https://github.com/whallysson/crawlerdetect/archive/master.zip", coloque-os dentro do diretorio "_app/Library/CrawlerDetect/";
+
+2 - "_app/Models/Session.class.php" e adicione essas linhas acima " class Session { "
+
+    require_once __DIR__ . '/../Library/CrawlerDetect/Fixtures/AbstractProvider.php';
+    require_once __DIR__ . '/../Library/CrawlerDetect/Fixtures/Crawlers.php';
+    require_once __DIR__ . '/../Library/CrawlerDetect/Fixtures/Exclusions.php';
+    require_once __DIR__ . '/../Library/CrawlerDetect/Fixtures/Headers.php';
+    require_once __DIR__ . '/../Library/CrawlerDetect/CrawlerDetect.php';
+
+    use CodeBlog\CrawlerDetect\CrawlerDetect;
+
+    class Session { ...
+
+
+3 - Troque o método "isValidUser()" por esse abaixo:
+
+    private function isValidUser() {
+        $this->Url = trim(strip_tags(filter_input(INPUT_GET, 'url', FILTER_DEFAULT)));
+        $Array = array('favicon', '.png', '.jpg', '.ico', '.gif', '.css', '.map');
+        foreach ($Array as $Sai):
+            if (stripos($this->Url, $Sai)):
+                return false;
+            endif;
+        endforeach;
+
+        $this->Agent = (string) mb_strtolower($_SERVER['HTTP_USER_AGENT']);
+
+
+        /**
+         * Add 26/03/2019
+         */
+        $Crawler = new CrawlerDetect();
+        if ($Crawler->isCrawler()) {
+            return false;
+        }
+
+        return true;
+    }
+
+

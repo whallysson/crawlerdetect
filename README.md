@@ -87,4 +87,4 @@ Thank you
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/codeblog/crawlerdetect/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/whallysson/crawlerdetect/blob/master/LICENSE) for more information.

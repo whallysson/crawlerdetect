@@ -73,9 +73,9 @@ Please see [CONTRIBUTING](https://github.com/whallysson/crawlerdetect/blob/maste
 
 ## Support
 
-###### Security: If you discover any security related issues, please email meu@email.com.br instead of using the issue tracker.
+###### Security: If you discover any security related issues, please email whallyssonallain@gmail.com instead of using the issue tracker.
 
-Se você descobrir algum problema relacionado à segurança, envie um e-mail para meu@email.com.br em vez de usar o rastreador de problemas.
+Se você descobrir algum problema relacionado à segurança, envie um e-mail para whallyssonallain@gmail.com em vez de usar o rastreador de problemas.
 
 Thank you
 

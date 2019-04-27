@@ -3,11 +3,11 @@
 [![Maintainer](http://img.shields.io/badge/maintainer-@whallysson-blue.svg?style=flat-square)](https://twitter.com/whallysson)
 [![Source Code](http://img.shields.io/badge/source-codeblog/crawlerdetect-blue.svg?style=flat-square)](https://github.com/whallysson/crawlerdetect)
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/codeblog/crawlerdetect.svg?style=flat-square)](https://packagist.org/packages/codeblog/crawlerdetect)
-[![Latest Version](https://img.shields.io/github/release/codeblog/crawlerdetect.svg?style=flat-square)](https://github.com/whallysson/crawlerdetect/releases)
+[![Latest Version](https://img.shields.io/github/release/whallysson/crawlerdetect.svg?style=flat-square)](https://github.com/whallysson/crawlerdetect/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build](https://img.shields.io/scrutinizer/build/g/codeblog/crawlerdetect.svg?style=flat-square)](https://scrutinizer-ci.com/g/whallysson/crawlerdetect)
-[![Quality Score](https://img.shields.io/scrutinizer/g/codeblog/crawlerdetect.svg?style=flat-square)](https://scrutinizer-ci.com/g/whallysson/crawlerdetect)
-[![Total Downloads](https://img.shields.io/packagist/dt/codeblog/crawlerdetect.svg?style=flat-square)](https://packagist.org/packages/ccodeblog/crawlerdetect)
+[![Build](https://img.shields.io/scrutinizer/build/g/whallysson/crawlerdetect.svg?style=flat-square)](https://scrutinizer-ci.com/g/whallysson/crawlerdetect)
+[![Quality Score](https://img.shields.io/scrutinizer/g/whallysson/crawlerdetect.svg?style=flat-square)](https://scrutinizer-ci.com/g/whallysson/crawlerdetect)
+[![Total Downloads](https://img.shields.io/packagist/dt/codeblog/crawlerdetect.svg?style=flat-square)](https://packagist.org/packages/codeblog/crawlerdetect)
 
 ###### CrawlerDetect is a PHP class for detecting bots / crawlers / spiders through the user agent and http header. Currently capable of detecting thousands of bots.
 
@@ -23,7 +23,7 @@ O CrawlerDetect é uma classe PHP para detectar bots/crawlers/spiders através d
 
 ## Installation
 
-Uploader is available via Composer:
+CrawlerDetect is available via Composer:
 
 ```bash
 "codeblog/crawlerdetect": "^1.0"
